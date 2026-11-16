@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zentrion Technologies — Intelligence That Protects.</title>
+  <meta name="description" content="Zentrion Technologies — AI-powered cybersecurity, automation, and software for the next generation of digital protection." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-brand">
+      <svg class="logo-svg" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Zentrion Shield Logo">
+        <path d="M22 2L4 10V22C4 32.5 12.5 41.2 22 43C31.5 41.2 40 32.5 40 22V10L22 2Z" fill="#DC2626" stroke="#DC2626" stroke-width="1"/>
+        <text x="22" y="30" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="18" fill="white">Z</text>
+      </svg>
+      <span class="brand-name">Zentrion</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+      </button>
+      <a href="#contact" class="btn-primary nav-cta">Get in Touch</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">AI-Powered Cybersecurity</div>
+      <h1 class="hero-headline">
+        Intelligence<br>That Protects.
+      </h1>
+      <p class="hero-sub">
+        We build cutting-edge security infrastructure, agentic AI systems, and enterprise software — so your business can move fast without breaking trust.
+      </p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/917305771789?text=Hello%20Zentrion%20Technologies%2C%20I%20am%20interested%20in%20your%20services." target="_blank" rel="noopener" class="btn-primary">Start a Project</a>
+        <a href="#services" class="btn-ghost">Explore Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">55+</span><span class="stat-label">Security Tools Unified</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">AI-First</span><span class="stat-label">Architecture</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">Full-Stack</span><span class="stat-label">Dev + Security</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="shield-anim">
+        <svg viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="shieldGrad" cx="50%" cy="40%" r="60%">
+              <stop offset="0%" stop-color="#FF4444" stop-opacity="0.9"/>
+              <stop offset="100%" stop-color="#8B0000" stop-opacity="0.6"/>
+            </radialGradient>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+              <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+          <path class="shield-path" d="M100 8L16 44V104C16 154 55 196 100 210C145 196 184 154 184 104V44L100 8Z" fill="url(#shieldGrad)" filter="url(#glow)"/>
+          <path d="M100 8L16 44V104C16 154 55 196 100 210C145 196 184 154 184 104V44L100 8Z" fill="none" stroke="#DC2626" stroke-width="2" opacity="0.6"/>
+          <path d="M100 20L28 52V104C28 148 62 186 100 199C138 186 172 148 172 104V52L100 20Z" fill="none" stroke="#FF6666" stroke-width="1" opacity="0.3"/>
+          <text x="100" y="130" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="72" fill="white" filter="url(#glow)">Z</text>
+          <circle class="orbit-ring" cx="100" cy="109" r="70" fill="none" stroke="#DC2626" stroke-width="1" stroke-dasharray="6 4" opacity="0.4"/>
+          <circle class="orbit-dot" cx="170" cy="109" r="5" fill="#DC2626"/>
+          <circle class="orbit-ring-2" cx="100" cy="109" r="88" fill="none" stroke="#FF4444" stroke-width="0.5" stroke-dasharray="3 6" opacity="0.2"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>What We Build</h2>
+        <p>End-to-end capabilities across cybersecurity, AI, and software engineering.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>AI-Powered Cybersecurity</h3>
+          <p>Vulnerability assessments, penetration testing, network security, cloud hardening, endpoint protection, and compliance audits — with AI-augmented analysis.</p>
+          <ul class="service-tags">
+            <li>VAPT</li><li>Cloud Security</li><li>Threat Intel</li><li>Audits</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3>AI Automation</h3>
+          <p>Generative AI integrations, LLM development, agentic AI pipelines, intelligent chatbots, and RAG systems that plug into your existing workflows.</p>
+          <ul class="service-tags">
+            <li>GenAI</li><li>Agentic AI</li><li>RAG</li><li>LLM Dev</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Software Development</h3>
+          <p>Web apps, mobile apps, blockchain solutions, and enterprise platforms. Full-stack delivery from architecture through deployment.</p>
+          <ul class="service-tags">
+            <li>Web</li><li>Mobile</li><li>Blockchain</li><li>Enterprise</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3>Training & Certifications</h3>
+          <p>Security awareness workshops, hands-on bootcamps, summer courses, and internship programs. Practical skills, real tools, job-ready outcomes.</p>
+          <ul class="service-tags">
+            <li>Bootcamps</li><li>Internships</li><li>Certs</li><li>Placement</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>Products in Development</h2>
+        <p>Two platforms being built in-house, pushing the edge of what AI security infrastructure can do.</p>
+      </div>
+      <div class="products-grid">
+
+        <div class="product-card product-featured">
+          <div class="product-label">Identity Security</div>
+          <h3>BehaviorDNA</h3>
+          <p>Non-human identity behavioral fingerprinting and drift detection. Built on Rust, Python, Neo4j, Kafka, and ONNX — it profiles AI agents, APIs, and service accounts in real time and flags when behavior deviates from baseline.</p>
+          <div class="product-stack">
+            <span>Rust</span><span>Python</span><span>Neo4j</span><span>Kafka</span><span>ONNX</span>
+          </div>
+          <div class="product-status"><span class="status-dot"></span>In Development</div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-label">SOC Platform</div>
+          <h3>Zentrion SOC Command Center</h3>
+          <p>A unified AI-native SOC platform that connects 55+ security tools through a single agentic interface. Powered by LangGraph, Next.js, PostgreSQL, RabbitMQ, and Qdrant for semantic threat search.</p>
+          <div class="product-stack">
+            <span>LangGraph</span><span>Next.js</span><span>PostgreSQL</span><span>Qdrant</span>
+          </div>
+          <div class="product-status"><span class="status-dot"></span>In Development</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses">
+    <div class="container">
+      <div class="section-header">
+        <h2>Flagship Course</h2>
+        <p>Hands-on cybersecurity training, built for the real world.</p>
+      </div>
+      <div class="course-card">
+        <div class="course-info">
+          <div class="course-badge">Bootcamp</div>
+          <h3>Practical Ethical Hacking &amp; Cybersecurity Bootcamp</h3>
+          <p>12-module program covering everything from lab setup to live exploitation demos. No fluff — every module runs real tools on real targets in a controlled environment.</p>
+          <a href="https://wa.me/917305771789?text=Hi%2C%20I%20want%20to%20enroll%20in%20the%20Ethical%20Hacking%20Bootcamp." target="_blank" rel="noopener" class="btn-primary">Enroll via WhatsApp</a>
+        </div>
+        <div class="course-modules">
+          <div class="module"><span class="mod-num">01</span><span>Lab Setup — VirtualBox &amp; Kali Linux</span></div>
+          <div class="module"><span class="mod-num">02</span><span>Linux CLI Fundamentals</span></div>
+          <div class="module"><span class="mod-num">03</span><span>OSINT &amp; Reconnaissance</span></div>
+          <div class="module"><span class="mod-num">04</span><span>Phishing Simulation (GoPhish / SET)</span></div>
+          <div class="module"><span class="mod-num">05</span><span>Brute Force Attacks (Hydra / John)</span></div>
+          <div class="module"><span class="mod-num">06</span><span>Social Media Account Security</span></div>
+          <div class="module"><span class="mod-num">07</span><span>Metasploit vs Metasploitable</span></div>
+          <div class="module"><span class="mod-num">08</span><span>SQL Injection on DVWA</span></div>
+          <div class="module"><span class="mod-num">09</span><span>XSS Demo</span></div>
+          <div class="module"><span class="mod-num">10</span><span>Wi-Fi Hacking (Aircrack-ng)</span></div>
+          <div class="module"><span class="mod-num">11</span><span>Android Security Basics</span></div>
+          <div class="module"><span class="mod-num">12</span><span>Defenses — Firewall, Snort &amp; Suricata</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="contact-left">
+          <h2>Build something<br>worth protecting.</h2>
+          <p>Whether you need a security audit, a custom AI system, or want to train your team — we're a message away.</p>
+          <div class="contact-links">
+            <a href="https://wa.me/917305771789" target="_blank" rel="noopener" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              +91 73057 71789
+            </a>
+            <a href="mailto:zentriontechnologies@gmail.com" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              zentriontechnologies@gmail.com
+            </a>
+            <a href="https://www.instagram.com/zentriontech" target="_blank" rel="noopener" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              @zentriontech
+            </a>
+            <a href="https://www.linkedin.com/company/zentriontechnologies" target="_blank" rel="noopener" class="contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              Zentrion Technologies
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="cta-block">
+            <p class="cta-label">Ready to get started?</p>
+            <a href="https://wa.me/917305771789?text=Hello%20Zentrion%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" class="btn-primary btn-large">Message on WhatsApp</a>
+            <a href="mailto:zentriontechnologies@gmail.com" class="btn-ghost btn-large">Send an Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <a href="#hero" class="nav-brand">
+        <svg class="logo-svg" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 2L4 10V22C4 32.5 12.5 41.2 22 43C31.5 41.2 40 32.5 40 22V10L22 2Z" fill="#DC2626"/>
+          <text x="22" y="30" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="18" fill="white">Z</text>
+        </svg>
+        <span class="brand-name">Zentrion Technologies</span>
+      </a>
+      <p class="footer-tagline">The Next Gen of Protection.</p>
+      <p class="footer-copy">&copy; 2025 Zentrion Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
